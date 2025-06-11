@@ -7,6 +7,7 @@ const isProtectedRoute = createRouteMatcher([
   '/ai-assistant(.*)',
   '/detail(.*)',
   '/api/(.*)',
+  '/nearby-gyms(.*)',
 ]);
 
 export default clerkMiddleware(async (auth, req) => {
